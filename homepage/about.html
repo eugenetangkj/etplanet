@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | ET's Planet</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+
+
+<body>
+    <!-- Navigation Bar-->
+    <header>
+        <div class="logo">
+            <a href="homepage.html"><img src="assets/logo.svg" alt="ET Logo" class="imageLogo"></a>
+            <a href="homepage.html" class="logotext">Eugene Tang</a>
+        </div>
+
+        <nav>
+            <img src="assets/close.svg" alt="menu-close" class="menu-close" id="menu-exit">
+            <ul>
+                <li>
+                    <a href="about.html" class="about hover-underline-animation-about" id="about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="projects hover-underline-animation">Projects</a>
+                </li>
+                <li>
+                    <a href="experience.html" class="experience hover-underline-animation">Experience</a>
+                </li>
+                <li>
+                    <a href="achievements.html" class="achievements hover-underline-animation-achievements">Achievements</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="assets/hamburger menu.svg" alt="menu" class="menu" id="menu-btn">
+        
+    </header>
+
+    <!-- Main Content-->
+    <div class="main-content">
+    <!-- Introduction -->
+        <div class="introduction">
+            <h2><span class="highlighted">Hi</span> there.</h2>
+            <div class="introduction-content">
+                <p class="introduction-text">I am a year 2 undergraduate studying Computer Science at the National University of Singapore. I am an aspiring software developer who is passionate about using technology to empower the community. In my free time, I like to draw and volunteer.</p>
+                <img src="assets/profile.svg" alt="My picture" class="introduction-image">
+            </div>
+        </div>
+
+        <!-- Tech Skills-->
+        <div class="tech-skills">
+            <h2><span class="highlighted">Tech</span> Skills</h2>
+            <img src="assets/alienHugOne.svg" alt="Blue alien graphic" class="blue-alien">
+            <div class="tech-skills-content">
+
+                <!-- Web Development-->
+                <div class="web-development">
+                    <h3>Web Development</h3>
+                    <div class="web-development-content">
+                        <img src="assets/html.svg" alt="HTML Logo">
+                        <img src="assets/css.svg" alt="CSS Logo">
+                        <img src="assets/javascript.svg" alt="Javascript Logo">
+                        <h5 class="html-text">HTML</h5>
+                        <h5 class="css-text">CSS</h5>
+                        <h5 class="javascript-text">Javascript</h5>
+                    </div>
+                </div>
+
+                <!-- Software Development-->
+                <div class="software-development">
+                    <h3>Software Development</h3>
+                    <div class="software-development-content">
+                        <img src="assets/java.svg" alt="Java Logo">
+                        <img src="assets/c.svg" alt="C Logo">
+                        <img src="assets/github.svg" alt="Github Logo">
+                        <h5>Java</h5>
+                        <h5>C</h5>
+                        <h5>Github</h5>
+                    </div>
+                </div>
+
+                <!-- Game Development-->
+                <div class="game-development">
+                    <h3>Game Development</h3>
+                    <div class="game-development-content">
+                        <img src="assets/unity.svg" alt="Unity Logo">
+                        <img src="assets/c-sharp.svg" alt="C# Logo">
+                        <img src="assets/playfab.svg" alt="Playfab Logo">
+                        <h5>Unity</h5>
+                        <h5>C#</h5>
+                        <h5>Playfab</h5>
+                    </div>
+                </div>
+
+                <!-- UX and UI-->
+                <div class="ux-ui">
+                    <h3>UX and UI</h3>
+                    <div class="ux-ui-content">
+                        <img src="assets/figma.svg" alt="Figma Logo">
+                        <img src="assets/fresco.svg" alt="Fresco Logo">
+                        <h5>Figma</h5>
+                        <h5>Fresco</h5>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/alienHugTwo.svg" alt="Purple alien graphic" class="purple-alien">
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <img src="assets/copyright.svg" alt="copyright icon" class="copyright">
+            <p>2022 Eugene Tang. All Rights Reserved.</p>
+            <a href="#"><img src="assets/mail.svg" alt="email" class="email"></a>
+            <a href="#"><img src="assets/linkedin.svg" alt="linkedin" class="linkedin"></a>
+        </footer>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const nav = document.querySelector('nav');
+        const menuExit = document.getElementById('menu-exit');
+        const bodyDocument = document.querySelector('body');
+
+        menuBtn.addEventListener('click', () => {
+            nav.classList.add('block');
+            bodyDocument.classList.add('freeze');
+        });
+
+        menuExit.addEventListener('click', () => {
+            nav.classList.remove('block');
+            bodyDocument.classList.remove('freeze');
+        })
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Drawings | ET's Planet</title>
+    <link rel="stylesheet" href="css/drawings.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+
+
+<body>
+    <!-- Navigation Bar-->
+    <header>
+        <div class="logo">
+            <a href="homepage.html"><img src="assets/logo.svg" alt="ET Logo" class="imageLogo"></a>
+            <a href="homepage.html" class="logotext">Eugene Tang</a>
+        </div>
+
+        <nav>
+            <img src="assets/close.svg" alt="menu-close" class="menu-close" id="menu-exit">
+            <ul>
+                <li>
+                    <a href="about.html" class="about hover-underline-animation" id="about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="projects hover-underline-animation-projects" id="projects">Projects</a>
+                </li>
+                <li>
+                    <a href="experience.html" class="experience hover-underline-animation">Experience</a>
+                </li>
+                <li>
+                    <a href="achievements.html" class="achievements hover-underline-animation-achievements">Achievements</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="assets/hamburger menu.svg" alt="menu" class="menu" id="menu-btn">
+        
+    </header>
+
+    <!-- Main Content-->
+    <div class="main-content">
+        <!-- Backward Navigation-->
+        <div class="backward-navigation">
+            <a href="projects.html"><img src="assets/backward-arrow.svg" alt="Backward arrow"></a>
+            <a href="projects.html" id="back"><h5>Back to Projects</h5></a>
+        </div>
+        <h2><span class="highlighted">Drawings</span></h2>
+        <div class="picture-grid">
+            <img class="images" id="image-one" src="assets/drawings/mew.PNG" alt="Pokemon Mew">
+            <img class="images" id="image-two" src="assets/drawings/jirachi.PNG" alt="Pokemon Jirachi">
+            <img class="images" id="image-three" src="assets/drawings/stitch-one.PNG" alt="Stitch Drawing">
+            <img class="images" id="image-four" src="assets/drawings/stitch-two.PNG" alt="Stitch">
+            <img class="images" id="image-five" src="assets/drawings/league-ten.PNG" alt="League of Legends 10th Anniversary">
+            <img class="images" id="image-six" src="assets/drawings/dinosaur.PNG" alt="Dinosaur">
+            <img class="images" id="image-seven" src="assets/drawings/kirby.PNG" alt="Kirby">
+            <img class="images" id="image-eight" src="assets/drawings/mario.PNG" alt="Mario and Koopa">
+            <img class="images" id="image-nine" src="assets/drawings/bruni.PNG" alt="Frozen Bruni">
+            <img class="images" id="image-ten" src="assets/drawings/avatar.PNG" alt="Avatar the Last Airbender">
+            <img class="images" id="image-eleven" src="assets/drawings/alien.PNG" alt="Toy Story Green Alien">
+            <img class="images" id="image-twelve" src="assets/drawings/yasuo.PNG" alt="League of Legends Spirit Blossom Yasuo">
+            <img class="images" id="image-thirteen" src="assets/drawings/thresh.PNG" alt="League of Legends Spirit Blossom Thresh">
+            <img class="images" id="image-fourteen" src="assets/drawings/lillia.PNG" alt="League of Legends Spirit Blossom Lillia">
+            <img class="images" id="image-fifteen" src="assets/drawings/vayne.PNG" alt="League of Legends Spirit Blossom Vayne">
+            <img class="images" id="image-sixteen" src="assets/drawings/teemo.PNG" alt="League of Legends Spirit Blossom Teemo">
+            <img class="images" id="image-seventeen" src="assets/drawings/baymax.PNG" alt="Big Hero 6 Baymax">
+            <img class="images" id="image-eighteen" src="assets/drawings/brawl-stars-dinosaur.PNG" alt="Brawl Stars Dinosaur">
+            <img class="images" id="image-nineteen" src="assets/drawings/brawl-stars-bear.PNG" alt="Brawl Stars Nita Bear">
+            <img class="images" id="image-twenty" src="assets/drawings/costume characters.PNG" alt="In Disguise">
+            <img class="images" id="image-twentyone" src="assets/drawings/dragon.PNG" alt="White Dragon">
+            <img class="images" id="image-twentytwo" src="assets/drawings/woodlands-logo.PNG" alt="Woodlands GRC Logo Design Competition Entry">
+            <img class="images" id="image-twentythree" src="assets/drawings/banana-dinosaur.PNG" alt="Banana Dinosaur">
+            <img class="images" id="image-twentyfour" src="assets/drawings/mochi-caterpillar.PNG" alt="Mochi Caterpillar">
+            <img class="images" id="image-twentyfive" src="assets/drawings/bat-rabbit.PNG" alt="Bat Rabbit">
+            <img class="images" id="image-twentysix" src="assets/drawings/soc-mascot.PNG" alt="NUS SoC Mascot Illustration">
+            <img class="images" id="image-twentyseven" src="assets/drawings/tiger.png" alt="Tiger">
+            <img class="images" id="image-twentyeight" src="assets/drawings/intergalatic-enemy.png" alt="Intergalatic Swordmaster">
+
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        
+
+    <div class="footer">
+        <footer>
+            <img src="assets/copyright.svg" alt="copyright icon" class="copyright">
+            <p>2022 Eugene Tang. All Rights Reserved.</p>
+            <a href="#"><img src="assets/mail.svg" alt="email" class="email"></a>
+            <a href="#"><img src="assets/linkedin.svg" alt="linkedin" class="linkedin"></a>
+        </footer>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const nav = document.querySelector('nav');
+        const menuExit = document.getElementById('menu-exit');
+        const bodyDocument = document.querySelector('body');
+
+        menuBtn.addEventListener('click', () => {
+            nav.classList.add('block');
+            bodyDocument.classList.add('freeze');
+        });
+
+        menuExit.addEventListener('click', () => {
+            nav.classList.remove('block');
+            bodyDocument.classList.remove('freeze');
+        })
+
+        var modal = document.getElementById('myModal');
+        var images = document.getElementsByClassName('images');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+
+        for (var i = 0; i < images.length; i++) {
+        var img = images[i];
+        img.onclick = function(evt) {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            // modal.classList.add('freeze');
+            bodyDocument.classList.add('freeze');
+            }
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function() {
+            modal.style.display = "none";
+            // modal.classList.remove('freeze');
+            bodyDocument.classList.remove('freeze');
+        }
+
+
+    </script>
+    
+</body>
+</html>
