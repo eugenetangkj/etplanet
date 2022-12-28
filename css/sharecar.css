@@ -145,7 +145,7 @@ header .menu {
   grid-row: 1/3;
   grid-column: 1/2;
   width: 60%;
-  height: 60%;
+  height: 100%;
   justify-self: center;
   align-self: center;
   margin-top: -10%;
@@ -313,11 +313,11 @@ header .menu {
 .main-content .project-details .design-approach .personas .personas-graphics .personas-one h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h5 {
   color: black;
   font-size: 1em;
-  margin-top: -3%;
+  margin-top: -5%;
 }
 .main-content .project-details .design-approach .personas .personas-graphics .personas-one img, .main-content .project-details .design-approach .personas .personas-graphics .personas-two img, .main-content .project-details .design-approach .personas .personas-graphics .personas-three img {
-  width: 30%;
-  height: 30%;
+  width: 60%;
+  height: 60%;
   margin-top: 10%;
 }
 .main-content .project-details .design-approach .brainstorming {
@@ -589,7 +589,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 60%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -724,8 +724,8 @@ header .menu {
     margin-top: -5%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one img, .main-content .project-details .design-approach .personas .personas-graphics .personas-two img, .main-content .project-details .design-approach .personas .personas-graphics .personas-three img {
-    width: 30%;
-    height: 30%;
+    width: 60%;
+    height: 60%;
     margin-top: 10%;
   }
   .main-content .project-details .design-approach .brainstorming {
@@ -977,7 +977,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 60%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -1050,7 +1050,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 60%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -1249,7 +1249,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 60%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -1399,15 +1399,15 @@ header .menu {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 150%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one, .main-content .project-details .design-approach .personas .personas-graphics .personas-two, .main-content .project-details .design-approach .personas .personas-graphics .personas-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h4 {
     color: black;
@@ -1419,8 +1419,8 @@ header .menu {
     margin-top: -5%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one img, .main-content .project-details .design-approach .personas .personas-graphics .personas-two img, .main-content .project-details .design-approach .personas .personas-graphics .personas-three img {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     margin-top: 10%;
   }
   .main-content .project-details .design-approach .brainstorming {
@@ -1709,8 +1709,8 @@ header .menu {
   .main-content .graphic img {
     grid-row: 1/3;
     grid-column: 1/2;
-    width: 50%;
-    height: 60%;
+    width: 60%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -1861,15 +1861,15 @@ header .menu {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 150%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one, .main-content .project-details .design-approach .personas .personas-graphics .personas-two, .main-content .project-details .design-approach .personas .personas-graphics .personas-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h4 {
     color: black;
@@ -1881,8 +1881,8 @@ header .menu {
     margin-top: -5%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one img, .main-content .project-details .design-approach .personas .personas-graphics .personas-two img, .main-content .project-details .design-approach .personas .personas-graphics .personas-three img {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     margin-top: 10%;
   }
   .main-content .project-details .design-approach .brainstorming {
@@ -2167,7 +2167,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 60%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -2275,7 +2275,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 60%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -2393,15 +2393,15 @@ header .menu {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 150%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one, .main-content .project-details .design-approach .personas .personas-graphics .personas-two, .main-content .project-details .design-approach .personas .personas-graphics .personas-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h4 {
     color: black;
@@ -2410,11 +2410,11 @@ header .menu {
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h5 {
     color: black;
     font-size: 1em;
-    margin-top: -4%;
+    margin-top: -5%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one img, .main-content .project-details .design-approach .personas .personas-graphics .personas-two img, .main-content .project-details .design-approach .personas .personas-graphics .personas-three img {
-    width: 30%;
-    height: 30%;
+    width: 60%;
+    height: 60%;
     margin-top: 10%;
   }
   .main-content .project-details .design-approach .brainstorming {
@@ -2702,7 +2702,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 50%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
@@ -2855,15 +2855,15 @@ header .menu {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 150%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one, .main-content .project-details .design-approach .personas .personas-graphics .personas-two, .main-content .project-details .design-approach .personas .personas-graphics .personas-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h4 {
     color: black;
@@ -2872,11 +2872,11 @@ header .menu {
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h5 {
     color: black;
     font-size: 1em;
-    margin-top: -4%;
+    margin-top: -5%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one img, .main-content .project-details .design-approach .personas .personas-graphics .personas-two img, .main-content .project-details .design-approach .personas .personas-graphics .personas-three img {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     margin-top: 10%;
   }
   .main-content .project-details .design-approach .brainstorming {
@@ -3249,15 +3249,15 @@ header .menu {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 150%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one, .main-content .project-details .design-approach .personas .personas-graphics .personas-two, .main-content .project-details .design-approach .personas .personas-graphics .personas-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h4, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h4 {
     color: black;
@@ -3266,11 +3266,11 @@ header .menu {
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-two h5, .main-content .project-details .design-approach .personas .personas-graphics .personas-three h5 {
     color: black;
     font-size: 1em;
-    margin-top: -3%;
+    margin-top: -5%;
   }
   .main-content .project-details .design-approach .personas .personas-graphics .personas-one img, .main-content .project-details .design-approach .personas .personas-graphics .personas-two img, .main-content .project-details .design-approach .personas .personas-graphics .personas-three img {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     margin-top: 10%;
   }
   .main-content .project-details .design-approach .brainstorming {
@@ -3466,7 +3466,7 @@ header .menu {
     grid-row: 1/3;
     grid-column: 1/2;
     width: 60%;
-    height: 50%;
+    height: 100%;
     justify-self: center;
     align-self: center;
     margin-top: -10%;
