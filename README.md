@@ -9,7 +9,7 @@ I self-designed the graphics used in the website. The design mainly revolves aro
 ## Code
 I self picked up HTML, CSS and basic Javascript using online resources such as The Odin Project and YouTube. The website is created from scratch using these 3 technologies.
 
-Note: To be exact, I used SASS instead of CSS for the ease of nesting CSS rules, but syntax follows mainly that of CSS.
+Note: To be exact, I used SCSS instead of CSS for the ease of nesting CSS rules, but syntax follows mainly that of CSS.
 
 - For the layout, I relied on CSS Flex and CSS Grid, depending on the requirements and contents of the web page.
 - For responsive web design, I utilised media queries extensively to ensure that my website looks presentable on various screen resolutions.
